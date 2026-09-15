@@ -34,6 +34,5 @@
 
   <text class="side" x="640" y="70">부모 노드</text>
   <text class="side" x="150" y="560">자식 노드</text>
-  <text class="cap" x="570" y="600">자식이 두개까지만 올 수 있는 트리를 이진트리라고 합니다</text>
 </g>
 </svg>

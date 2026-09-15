@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .hd  { font-size:44px; fill:#111; text-anchor:middle; }
+  .sub { font-size:30px; fill:#555; text-anchor:middle; }
+  .tag { font-size:36px; fill:#d97706; text-anchor:middle; }
+  .mono{ font-family:"SFMono-Regular",Menlo,Consolas,monospace; font-size:30px; fill:#333; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:4; }
+  .ar  { fill:none; stroke:#d97706; stroke-width:5; }
+</style>
+<defs>
+  <marker id="o" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#d97706"/>
+  </marker>
+</defs>
+<rect width="1600" height="1600" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,460)">
+
+  <rect x="60" y="120" width="400" height="460" rx="24" fill="#eaf1fb"/>
+  <rect class="bx" x="60" y="120" width="400" height="460" rx="24"/>
+  <text class="hd"  x="260" y="330">프론트</text>
+  <text class="sub" x="260" y="390">화면을 만듭니다</text>
+
+  <rect x="1140" y="120" width="400" height="460" rx="24" fill="#eaf1fb"/>
+  <rect class="bx" x="1140" y="120" width="400" height="460" rx="24"/>
+  <text class="hd"  x="1340" y="330">백엔드</text>
+  <text class="sub" x="1340" y="390">데이터를 줍니다</text>
+
+  <text class="tag"  x="800" y="215">요청</text>
+  <path class="ar" d="M 490 255 L 1105 255" marker-end="url(#o)"/>
+  <text class="mono" x="800" y="310">GET /students/1</text>
+
+  <text class="tag"  x="800" y="415">응답</text>
+  <path class="ar" d="M 1110 455 L 495 455" marker-end="url(#o)"/>
+  <text class="mono" x="800" y="510">{ "id": 1, "name": "김석환" }</text>
+
+</g>
+</svg>

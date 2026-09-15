@@ -8,8 +8,7 @@
   .eg  { fill:none; stroke:#111; stroke-width:3.5; }
 </style>
 <rect width="1140" height="1140" fill="#ffffff"/>
-<g class="lbl" transform="translate(0,200)">
-  <text class="side" x="60" y="60">3, 7, 9, 12, 45 를 순서대로 넣은 경우</text>
+<g class="lbl" transform="translate(0,210)">
 
   <path class="eg" d="M 200 140 L 340 250"/>
   <path class="eg" d="M 340 250 L 480 360"/>
@@ -28,6 +27,5 @@
   <text class="val" x="620" y="484">12</text>
   <text class="val" x="760" y="594">45</text>
 
-  <text class="cap" x="570" y="700">한쪽으로만 자라서 사실상 연결리스트가 되어버립니다</text>
 </g>
 </svg>

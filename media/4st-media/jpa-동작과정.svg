@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+<style>
+  .lbl { font-family:"Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:700; }
+  .ttl { font-size:34px; fill:#111; text-anchor:middle; }
+  .hd  { font-size:28px; fill:#111; text-anchor:middle; }
+  .cel { font-size:28px; fill:#111; text-anchor:middle; }
+  .in  { font-size:27px; fill:#111; text-anchor:middle; }
+  .st  { font-size:27px; fill:#d97706; text-anchor:middle; }
+  .sub { font-size:22px; fill:#8a8a8a; text-anchor:middle; }
+  .cap { font-size:26px; fill:#8a8a8a; text-anchor:middle; }
+  .bx  { fill:none; stroke:#111; stroke-width:3.5; }
+  .ln  { stroke:#111; stroke-width:2.5; }
+  .thin{ stroke:#9db8dc; stroke-width:2.5; }
+  .ar  { fill:none; stroke:#d97706; stroke-width:5; }
+</style>
+<defs>
+  <marker id="ao" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto">
+    <path d="M 0 0 L 12 6 L 0 12 z" fill="#d97706"/>
+  </marker>
+</defs>
+<rect width="1600" height="1600" fill="#ffffff"/>
+<g class="lbl" transform="translate(0,350)">
+
+  <text class="ttl" x="240"  y="125">애플리케이션</text>
+  <text class="ttl" x="800"  y="125">JPA</text>
+  <text class="ttl" x="1360" y="125">데이터베이스</text>
+
+  <rect class="bx" x="40" y="160" width="400" height="560" rx="18"/>
+
+  <rect x="95" y="230" width="290" height="90"  fill="#eaf1fb"/>
+  <rect x="95" y="320" width="145" height="270" fill="#eaf1fb"/>
+  <rect class="bx" x="95" y="230" width="290" height="360" rx="14"/>
+  <line class="bx" x1="95" y1="320" x2="385" y2="320"/>
+  <line class="ln" x1="95" y1="410" x2="385" y2="410"/>
+  <line class="ln" x1="95" y1="500" x2="385" y2="500"/>
+  <line class="ln" x1="240" y1="320" x2="240" y2="590"/>
+
+  <text class="cel" x="240" y="284">Member</text>
+  <text class="cel" x="167" y="373">name</text>
+  <text class="cel" x="313" y="373">김석환</text>
+  <text class="cel" x="167" y="463">age</text>
+  <text class="cel" x="313" y="463">24</text>
+  <text class="cel" x="167" y="553">height</text>
+  <text class="cel" x="313" y="553">188</text>
+  <text class="sub" x="240" y="645">자바 객체</text>
+
+  <rect x="640" y="160" width="320" height="560" rx="18" fill="#eaf1fb"/>
+  <rect class="bx" x="640" y="160" width="320" height="560" rx="18"/>
+  <text class="in" x="800" y="350">객체를 보고</text>
+  <text class="in" x="800" y="395">SQL을 만들고</text>
+  <line class="thin" x1="690" y1="440" x2="910" y2="440"/>
+  <text class="in" x="800" y="505">결과를 받아서</text>
+  <text class="in" x="800" y="550">객체에 담습니다</text>
+
+  <rect class="bx" x="1160" y="160" width="400" height="560" rx="18"/>
+
+  <rect x="1195" y="260" width="330" height="80" fill="#eaf1fb"/>
+  <rect x="1195" y="340" width="330" height="70" fill="#fdefd9"/>
+  <rect class="bx" x="1195" y="260" width="330" height="290" rx="14"/>
+  <line class="bx" x1="1195" y1="340" x2="1525" y2="340"/>
+  <line class="ln" x1="1195" y1="410" x2="1525" y2="410"/>
+  <line class="ln" x1="1195" y1="480" x2="1525" y2="480"/>
+  <line class="ln" x1="1305" y1="260" x2="1305" y2="550"/>
+  <line class="ln" x1="1415" y1="260" x2="1415" y2="550"/>
+
+  <text class="hd"  x="1250" y="313">name</text>
+  <text class="hd"  x="1360" y="313">age</text>
+  <text class="hd"  x="1470" y="313">height</text>
+  <text class="cel" x="1250" y="383">김석환</text>
+  <text class="cel" x="1360" y="383">24</text>
+  <text class="cel" x="1470" y="383">188</text>
+  <text class="cel" x="1250" y="453">이우빈</text>
+  <text class="cel" x="1360" y="453">16</text>
+  <text class="cel" x="1470" y="453">184</text>
+  <text class="cel" x="1250" y="523">박연지</text>
+  <text class="cel" x="1360" y="523">34</text>
+  <text class="cel" x="1470" y="523">180</text>
+  <text class="sub" x="1360" y="605">member 테이블</text>
+
+  <path class="ar" marker-end="url(#ao)" d="M 460 340 L 618 340"/>
+  <path class="ar" marker-end="url(#ao)" d="M 980 340 L 1138 340"/>
+  <path class="ar" marker-end="url(#ao)" d="M 1140 555 L 982 555"/>
+  <path class="ar" marker-end="url(#ao)" d="M 620 555 L 462 555"/>
+
+  <text class="st"  x="540"  y="252">① 객체를</text>
+  <text class="st"  x="540"  y="292">넘기면</text>
+  <text class="st"  x="1060" y="252">② SQL을</text>
+  <text class="st"  x="1060" y="292">만들어서</text>
+  <text class="sub" x="1060" y="392">JDBC로 전달</text>
+  <text class="st"  x="1060" y="620">③ 결과를</text>
+  <text class="st"  x="1060" y="660">돌려주면</text>
+  <text class="st"  x="540"  y="620">④ 객체에</text>
+  <text class="st"  x="540"  y="660">담아서 반환</text>
+
+  <text class="cap" x="800" y="800">객체와 테이블 사이를 JPA가 대신 이어줍니다</text>
+</g>
+</svg>

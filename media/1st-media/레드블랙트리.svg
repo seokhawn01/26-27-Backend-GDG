@@ -9,8 +9,7 @@
   .eg  { fill:none; stroke:#111; stroke-width:3.5; }
 </style>
 <rect width="1140" height="1140" fill="#ffffff"/>
-<g class="lbl" transform="translate(0,245)">
-  <text class="side" x="60" y="60">같은 3, 7, 9, 12, 45 를 레드블랙 트리에 넣으면</text>
+<g class="lbl" transform="translate(0,250)">
 
   <path class="eg" d="M 570 130 L 390 320"/>
   <path class="eg" d="M 570 130 L 750 320"/>
@@ -29,6 +28,5 @@
   <text class="val" x="250" y="524">3</text>
   <text class="val" x="890" y="524">45</text>
 
-  <text class="cap" x="570" y="630">색 규칙으로 균형을 잡아서 최악의 경우에도 O(log n)입니다</text>
 </g>
 </svg>

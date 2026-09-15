@@ -15,7 +15,7 @@
   </marker>
 </defs>
 <rect width="1140" height="1140" fill="#ffffff"/>
-<g class="lbl" transform="translate(0,300)">
+<g class="lbl" transform="translate(0,318)">
   <text class="top" x="294"  y="98">3</text>
   <text class="top" x="550"  y="98">7</text>
   <text class="top" x="870"  y="98">12</text>
@@ -61,6 +61,5 @@
   <text class="idx" x="870"  y="432">[12]</text>
   <text class="idx" x="1022" y="432">[45]</text>
 
-  <text class="cap" x="562" y="500">값 45 하나 때문에 46칸이 필요한데, 실제로 쓰는 칸은 4개뿐입니다</text>
 </g>
 </svg>

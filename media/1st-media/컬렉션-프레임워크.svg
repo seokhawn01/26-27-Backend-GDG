@@ -81,7 +81,6 @@
   <text class="cnm" x="725" y="1250" font-size="22">LinkedHashMap</text>
   <rect class="lb" x="1100" y="510" width="210" height="86"/>
   <text class="lnm" x="1205" y="565">Stack</text>
-  <text class="tag" x="1205" y="640">레거시 — ArrayDeque 를 쓰세요</text>
   <text class="foot" x="850" y="790">LinkedList 는 List 이면서 Deque 이기도 합니다</text>
   <line class="div" x1="140" y1="815" x2="1550" y2="815"/>
   <text class="sec" x="140" y="862">Map 계열 — Collection 소속이 아니라 따로 있습니다</text>
