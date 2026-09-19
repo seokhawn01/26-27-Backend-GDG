@@ -143,11 +143,11 @@
 
 **타입매개변수(Type Parameter)**
 
-클래스를 선언할때 `GenericBox<T>` 처럼 적어두는 `T` 입니다. 아직 타입이 정해지지 않은 빈 자리라고 보시면 됩니다
+`GenericBox<T>` 처럼 클래스나 메서드를 선언할때, 사용하는 T라고 보면 됩니다
 
 **타입인자(Type Argument)**
 
-객체를 만들때 `new GenericBox<Integer>()` 처럼 실제로 넣어주는 `Integer` 입니다. 이 시점에 T의 타입이 결정됩니다
+`new GenericBox<Integer>()` 의 `Integer` 처럼 제네릭을실제로 사용할때 전달하는 구체적인 타입
 
 **다이아몬드 연산자**
 
